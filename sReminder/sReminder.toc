@@ -1,0 +1,23 @@
+## Interface: 20400
+## Title: sReminder
+## Notes: Simple reminder addon by Siarkowy. Supports trade skill cooldowns. Usage: /remind
+## Author: Siarkowy
+## X-License: BSD 2-Clause
+## Version: 1.0
+## OptionalDeps: Ace3
+## SavedVariables: sReminderDB
+
+# Libs
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\LibFuBarPlugin-3.0\lib.xml
+
+# Core
+
+core.lua
